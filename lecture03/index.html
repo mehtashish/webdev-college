@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* tag selector */
+        p{
+            color: chocolate;
+            font-size: 24px;
+        }
+
+        /* id selector */
+        #p2{
+            color:blueviolet;
+            font-size: 30px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    
+    <h1 style="color: tomato; background-color: burlywood; display: inline;">styling through inline CSS</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, sapiente.</p>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi?</p>
+
+
+    <!-- External link -->
+     <article class="same">Lorem ipsum dolor sit amet consectetur adipisicing elit.</article>
+     <article>Lorem ipsum dolor sit amet consectetur adipisicing elit.</article>
+     <article>Lorem ipsum dolor sit amet consectetur adipisicing elit.</article>
+     <article id="article4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</article>
+     <article>Lorem ipsum dolor sit amet consectetur adipisicing elit.</article>
+     <article class="same">Lorem ipsum dolor sit amet consectetur adipisicing elit.</article>
+     <article>Lorem ipsum dolor sit amet consectetur adipisicing elit.</article>
+     <article id="article4" class="same" >Lorem ipsum, dolor sit amet consectetur adipisicing elit.</article>
+
+    <!-- preferences:
+        1. id selector > class selector > tag selector
+        2. inline - most preference
+        3. internal and external both have same preference i.e., relative
+        4. out of internal and external whichever tag is lowest in the head tag, that will have more preference -->
+    
+    <!-- universal selector -> using * -->
+
+</body>
+</html>
