@@ -1,0 +1,94 @@
+#relative {
+    border: 3px solid darkgoldenrod;
+}
+
+
+#relative>div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blueviolet;
+    display: inline-block;
+}
+
+#relative>div:nth-of-type(2) {
+    background-color: tomato;
+    position: relative;
+}
+
+
+#relative>div:nth-of-type(2):hover {
+    /* background-color: tomato;
+    position: relative; */
+    top: 1px;  /* high reference than bottom */
+    left: 1px;  /* high preference than right */
+    right: 50px;
+}
+
+
+#absolute {
+    border: 4px solid darkgreen;
+    height: 350px;
+    padding: 10px;
+    position: relative;
+}
+
+
+#absolute>div {
+    border: 3px solid darkorange;
+    height: 250px;
+}
+
+#absolute>div>div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blueviolet;
+    display: inline-block;
+}
+
+
+#absolute>div>div:nth-of-type(2) {
+    background-color: tomato;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+#absoluteEx {
+    border: 4px solid darkgreen;
+    height: 350px;
+    padding: 10px;
+    position: relative;
+}
+
+/* #absoluteEx>div {
+    border: 3px solid darkorange;
+    height: 300px; */
+/* } */
+
+#absoluteEx>div>div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid blueviolet;
+    display: inline-block;
+}
+
+
+#absoluteEx>div>div:nth-of-type(2) {
+    background-color: tomato;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#search{
+    padding: 50px;
+    position: relative;
+    display: inline-block;
+    border:solid;
+  }
+  
+  #search>span{
+    position: absolute;
+    right: 10px;
+  }
