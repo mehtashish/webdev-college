@@ -1,11 +1,33 @@
+/* Universal Selector
+*{
+    border:2px solid peru;
+  } */
+
+  
+/* tag selector */
 article{
     color: darkgoldenrod;
 }
 
+
+/* id selector */
 #article4{
     color: darkviolet;
 }
 
+
+/* Class selector */
 .same{
     color: blue;
 }
+
+
+/* Attribute selector
+input[type="text"] {
+    background-color: blue;
+} */
+
+
+input[name="userName"]{
+    background-color: green;
+  }
