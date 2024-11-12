@@ -1,0 +1,19 @@
+h2 {
+    color: brown;
+    text-align: center;
+    font-size: 60px;
+}
+
+@media (width<1180px) {
+    h2 {
+        color: darkgoldenrod;
+        border: 2px solid darkolivegreen;
+    }
+}
+
+@media (width<480px) {
+    h2 {
+        color: darkolivegreen;
+        border: 2px solid darkblue;
+    }
+}
